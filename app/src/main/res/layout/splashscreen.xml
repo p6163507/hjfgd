@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagego"
+        android:layout_width="314dp"
+        android:layout_height="323dp"
+        app:srcCompat="@drawable/gora"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textwild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Wild "
+        android:textColor="@color/greeen"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="101dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagego" />
+
+    <TextView
+        android:id="@+id/textway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Way "
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:layout_marginRight="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagego" />
+
+    <TextView
+        android:id="@+id/textmotivate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Каждый может тренироваться "
+        android:textColor="@color/gray"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="53dp"
+        app:layout_constraintTop_toBottomOf="@+id/textwild" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/gradient"
+        android:text="Начать"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagego"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

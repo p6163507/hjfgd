@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding">
+
+    <TextView
+        android:id="@+id/textlok"
+        android:layout_width="278dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="Отслеживайте свою цель"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textlof"
+        android:layout_width="315dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:text="Не волнуйтесь, если у вас возникли   проблемы с определением ваших целей.      Мы можем помочь вам определить ваши   цели и отслеживать их. "
+        android:textColor="@color/grayy"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlok" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="652dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
