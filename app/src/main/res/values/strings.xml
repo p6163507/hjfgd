@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">gfjfhbg</string>
+    <string name="helo">Добро пожаловать,</string>
+    <string name="bvn">ИМТ (индекс массы тела)</string>
+    <string name="tod">Статус активности</string>
+    <string name="cet">78 BPM</string>
+    <string name="yved">Уведомления</string>
+    <string name=""> </string>
+
+
+
 </resources>

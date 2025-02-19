@@ -7,4 +7,134 @@
     android:layout_height="match_parent"
     tools:context=".loginn">
 
+    <TextView
+        android:id="@+id/textlof"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:text="@string/helo"
+        android:textColor="@color/grayylite"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textlok"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Юрий"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlof" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="18dp"
+        android:layout_height="21.21dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginTop="66dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico" />
+
+
+    <ImageView
+        android:id="@+id/imageh"
+        android:layout_width="315dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlok"
+        app:srcCompat="@drawable/Banner" />
+
+
+
+    <TextView
+        android:id="@+id/texttod"
+        android:layout_width="159dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="117dp"
+        android:gravity="center"
+        android:text="@string/tod"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageh" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="173dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageh"
+        app:srcCompat="@drawable/drt" />
+
+    <ImageView
+        android:id="@+id/imagegrafi"
+        android:layout_width="315dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texttod"
+        app:srcCompat="@drawable/Status" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="279dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="@+id/imagegrafi"
+        app:layout_constraintStart_toStartOf="@+id/imagegrafi"
+        app:layout_constraintTop_toTopOf="@+id/texttod"
+        app:srcCompat="@drawable/ctat" />
+
+    <TextView
+        android:id="@+id/textcet"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="167dp"
+        android:gravity="center"
+        android:text="@string/cet"
+        android:textColor="@color/grenlite"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagegrafi" />
+
+    <ImageView
+        android:id="@+id/imagewater"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcet"
+        app:srcCompat="@drawable/Statuswater" />
+
+    <ImageView
+        android:id="@+id/imageson"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcet"
+        app:srcCompat="@drawable/Statusson" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
