@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".worki">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="375dp"
+        android:layout_height="418dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+
+
+    <ImageView
+        android:id="@+id/imagechel"
+        android:layout_width="316dp"
+        android:layout_height="415dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chel" />
+
+    <Button
+        android:id="@+id/buttongal"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/djlf"
+        android:backgroundTint="@color/grayyt"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/njxrf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsvit"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/djlf"
+        android:gravity="center|top"
+        android:drawableRight="@drawable/iccon"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/grayyt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagechel">
+
+        <LinearLayout
+            android:layout_width="315dp"
+            android:layout_height="850dp"
+            android:layout_gravity="center|top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagetime"
+                android:layout_width="315dp"
+                android:layout_height="47dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/time" />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:background="@drawable/botongraf"
+                android:drawableLeft="@drawable/rfkty"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@drawable/iccon"
+                android:text="Время тренировки      27 мая, 09:00"
+                android:textColor="@color/graye"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/hard"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tint"
+                android:backgroundTint="@color/greanelite"
+                android:drawableLeft="@drawable/ici"
+                android:drawableEnd="@drawable/iccon"
+                android:text="Сложность             Начинающий"
+                android:textColor="@color/graye"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textpon"
+                android:layout_width="151dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="30dp"
+                android:gravity="left"
+                android:text="Вам понадобится"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textpred"
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="210dp"
+                android:gravity="left"
+                android:text="5 предметов"
+                android:textColor="@color/grayylite"
+                android:textSize="16dp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_width="315dp"
+            android:layout_height="850dp"
+            android:layout_gravity="center|top"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/ufyn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/djlf"
+                android:backgroundTint="@color/grayyt"
+                android:drawableBottom="@drawable/ufyntkb" />
+
+
+
+            <Button
+                android:id="@+id/crfrfkrf"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/djlf"
+                android:backgroundTint="@color/grayyt"
+                android:drawableBottom="@drawable/crfrfkrf" />
+
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textegh"
+                android:layout_width="118dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="1dp"
+                android:gravity="left"
+                android:text="Упражнения"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5pred"
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="2dp"
+                android:gravity="left"
+                android:text="5 предметов"
+                android:textColor="@color/grayylite"
+                android:textSize="16dp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
