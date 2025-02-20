@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addalarm">
+
+    <TextView
+        android:id="@+id/textlok"
+        android:layout_width="132dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="@string/hi"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongal"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@color/grayyt"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="<"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsvit"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/grayyt"
+        android:gravity="center|top"
+        android:text=".."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsoni"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/grayyt"
+        android:textColor="@color/grayy"
+        android:text=" Cон                                                                    21:00"
+        android:textSize="12dp"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/bed"
+        android:drawableRight="@drawable/ufkjxrf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlok" />
+
+    <Button
+        android:id="@+id/buttonxfc"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/grayyt"
+        android:drawableLeft="@drawable/xfcs"
+        android:drawableRight="@drawable/ufkjxrf"
+        android:gravity="left|center"
+        android:text="  Часов для сна                    8часов 30минут"
+        android:textColor="@color/grayy"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsoni" />
+
+    <Button
+        android:id="@+id/buttongjdnjh"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/grayyt"
+        android:drawableLeft="@drawable/gjdnjh"
+        android:drawableRight="@drawable/ufkjxrf"
+        android:gravity="left|center"
+        android:text="  Повтор                                               Пон по Пят"
+        android:textColor="@color/grayy"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonxfc" />
+
+    <Button
+        android:id="@+id/buttonpder"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/grayyt"
+        android:drawableLeft="@drawable/vibrate"
+        android:gravity="left|center"
+        android:text="  Вибрировать при звуке"
+        android:textColor="@color/grayy"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttongjdnjh" />
+
+    <Switch
+        android:id="@+id/switchon"
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textgradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonpder" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient"
+        android:text="Добавить"
+        android:layout_marginStart="31dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
