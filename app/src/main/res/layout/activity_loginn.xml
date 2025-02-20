@@ -53,7 +53,7 @@
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textlok"
-        app:srcCompat="@drawable/Banner" />
+        app:srcCompat="@drawable/button" />
 
 
 
@@ -89,7 +89,7 @@
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texttod"
-        app:srcCompat="@drawable/Status" />
+        app:srcCompat="@drawable/status" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -122,7 +122,7 @@
         android:layout_marginTop="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textcet"
-        app:srcCompat="@drawable/Statuswater" />
+        app:srcCompat="@drawable/statuswater" />
 
     <ImageView
         android:id="@+id/imageson"
@@ -132,7 +132,7 @@
         android:layout_marginTop="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textcet"
-        app:srcCompat="@drawable/Statusson" />
+        app:srcCompat="@drawable/statusson" />
 
 
 
