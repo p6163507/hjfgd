@@ -11,9 +11,10 @@
         android:id="@+id/imagego"
         android:layout_width="314dp"
         android:layout_height="323dp"
-        app:srcCompat="@drawable/gora"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gora" />
 
     <TextView
         android:id="@+id/textwild"
@@ -45,12 +46,11 @@
         android:id="@+id/textmotivate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
         android:gravity="center"
         android:text="Каждый может тренироваться "
         android:textColor="@color/gray"
         android:textSize="18dp"
-        tools:layout_editor_absoluteX="53dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textwild" />
 
 

@@ -5,8 +5,18 @@
     <string name="tod">Статус активности</string>
     <string name="cet">78 BPM</string>
     <string name="yved">Уведомления</string>
-    <string name=""> </string>
-
+    <string name="hi">Добавить часы</string>
+    <string name="srav">Сравнение</string>
+    <string name="resuit">Результат</string>
+    <string name="crv">Средний прогресс</string>
+    <string name="good">Хорошо</string>
+    <string name="maq">Май</string>
+    <string name="jun">Июнь</string>
+    <string name="gthtl">Передняя сторона</string>
+    <string name="obr">Обратной стороной</string>
+    <string name="left">Левая сторона</string>
+    <string name="right">Правая сторона</string>
+    <string name="prog">Фото прогресса</string>
 
 
 </resources>

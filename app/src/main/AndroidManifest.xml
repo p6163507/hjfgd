@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".progr"
+            android:exported="false" />
+        <activity
+            android:name=".compare"
+            android:exported="false" />
+        <activity
+            android:name=".comparison"
+            android:exported="false" />
+        <activity
             android:name=".notification"
             android:exported="false" />
         <activity
